@@ -11,7 +11,7 @@ python path/to/molten/cloud2mesh.py cloud.csv --output cloud.stl
 
 You can load the stl file in your favorite mesh viewer. You should see something similar to the following.
 
-<imc src="geb_mesh.png" width=400, height=400>
+![GEB mesh](https://raw.githubusercontent.com/quidditymaster/molten/master/geb_mesh.png)
 
 IMPORTANT! these mesh files may be fed into 3D printing programs and edited but they are not ready to be printed as is. In particular the normals of the mesh will need to be made consistent to keep the inside and outside distinct.
 
